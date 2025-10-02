@@ -1,0 +1,13 @@
+﻿//ISAQUE DE OLIVEIRA DOS SANTOS
+namespace AcademiaDoZe.Exceptions.Infrastructure
+{
+    public class InfrastructureException : Exception
+    {
+        public InfrastructureException(string message) : base(message)
+        {
+        }
+        public InfrastructureException(string message, Exception innerException) : base(message, innerException)
+        {
+        }
+    }
+}
